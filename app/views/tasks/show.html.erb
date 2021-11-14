@@ -1,0 +1,7 @@
+<%= @task.title %>
+<%= @task.details %>
+
+
+<%= link_to "edit", edit_path(@task) %>
+
+<%= link_to "DELETE", task_path(@task), method: :delete %>
